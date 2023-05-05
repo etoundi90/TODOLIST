@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "nom" : "Recueil des besoins",
+        "description" : "Initialisation",
+        "periode" : "Chef de projet",
+        "etat" : "En cours"
+    },
+    {
+        "id" : 2,
+        "nom" : "Recueil des besoins",
+        "description" : "Initialisation",
+        "periode" : "Chef de projet",
+        "etat" : "En cours"
+    },
+    {
+        "id" : 3,
+        "nom" : "Recueil des besoins",
+        "description" : "Initialisation",
+        "periode" : "Chef de projet",
+        "etat" : "En cours"
+    }
+]

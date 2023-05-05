@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/projet2.css">
+    <link rel="stylesheet" href="../CSS/pageTache1.css">
+</head>
+<body>
+    <div class="arriere_plan">
+        <header>
+            <div class="username"><p>NAME USER</p></div>
+            <div class="date"><p>Date du jour</p></div>
+            <div class="deconnect">
+                <button class="btn-deconnect" onclick="window.location.href='accueil.html';">Deconnexion</button>
+            </div>
+        </header>
+        <section>
+            <div class="page-menu">
+                <div class="entete">Tableau de bord</div>
+                <ul>
+                    <li><a href="page_accueil.html">Accueil</a></li>
+                    <li><a href="projet1.html">Projet 1</a></li>
+                    <li><a href="projet2.html">Projet 2</a></li>
+                    <li><a href="#">Mes images</a></li>
+                    <li><a href="#">Mes videos</a></li>
+                </ul>
+            </div>
+            <div class="page-descrip">
+                <div class="titre-defilant">
+                    <marquee behavior="scroll" direction="left" width="100%" padding-top="15px"><h1>Bienvenue dans le projet 2</h1></marquee>
+                </div> 
+                <div class="but-enregister">
+                    <button class="but-nouv-tache modal-trigger">Ajouter une nouvelle tache dans la liste</button>
+                </div>
+                <div class="page-tab">
+                    <table class="record">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>NOM</th>
+                                <th>DESCRIPTION</th>
+                                <th>PERIODE</th>
+                                <th>ETAT</th>
+                                <th>RETOUR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>algorithmique</td>
+                                <td>programmation</td>
+                                <td>2 jours</td>
+                                <td>terminer</td>
+                                <td>
+                                    <button class="btn-vert" type="button">+</button>
+                                    <button class="btn-red" type="button">0</button>
+                                    <button class="btn-yellow" type="button">-</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>001</td>
+                                <td>algorithmique</td>
+                                <td>programmation</td>
+                                <td>2 jours</td>
+                                <td>terminer</td>
+                                <td>
+                                    <button class="btn-vert" type="button">+</button>
+                                    <button class="btn-red" type="button">0</button>
+                                    <button class="btn-yellow" type="button">-</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>001</td>
+                                <td>algorithmique</td>
+                                <td>programmation</td>
+                                <td>2 jours</td>
+                                <td>terminer</td>
+                                <td>
+                                    <button class="btn-vert" type="button">+</button>
+                                    <button class="btn-red" type="button">0</button>
+                                    <button class="btn-yellow" type="button">-</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>001</td>
+                                <td>algorithmique</td>
+                                <td>programmation</td>
+                                <td>2 jours</td>
+                                <td>terminer</td>
+                                <td>
+                                    <button class="btn-vert" type="button">+</button>
+                                    <button class="btn-red" type="button">0</button>
+                                    <button class="btn-yellow" type="button">-</button>
+                                </td>
+                            </tr><tr>
+                                <td>001</td>
+                                <td>algorithmique</td>
+                                <td>programmation</td>
+                                <td>2 jours</td>
+                                <td>terminer</td>
+                                <td>
+                                    <button class="btn-vert" type="button">+</button>
+                                    <button class="btn-red" type="button">0</button>
+                                    <button class="btn-yellow" type="button">-</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                    <!-- <div class="contenair-modal" >
+                        <div class="overlay modal-trigger"></div>
+
+                        <div class="modal">
+                            <div>
+                                <label for="">Identifiant de la tache</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="">Nom de la tache</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="">Description de la tache</label>
+                                <input type="text">
+                            </div>
+                            <div>
+                                <label for="">periode d'exécution de la tache</label>
+                                <input type="date">
+                            </div>
+                            <div>
+                                <label for="">Etat de la tache</label>
+                                <input type="text">
+                            </div>
+                            <div class="button-action">
+                                <input type="submit" value="submit">
+                                <input type="reset"  value="reset">
+                                <button class="btnfermer modal-trigger">fermer</button>
+                                
+                            </div>
+        
+                        </div>
+                    </div> --> 
+                </div>
+            </div>
+
+        </section>
+        <footer>
+
+        </footer>
+    </div>
+    
+    <footer>
+        <div class="titre">A propos de nous</div>
+            
+    </footer>
+    <div class="modal-contenaire">
+        <div class="overlay modal-trigger"></div>
+        <div class="modal">
+            <button class="close-modal modal-trigger">X</button>
+            <h1>voici le contenu</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Omnis ab commodi d
+                olorum quo quaerat dolore.</p>
+        </div>
+    </div>
+    <script src="../JS/projet1.js"></script>
+</body>
+</html>

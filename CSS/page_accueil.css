@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"poppins",sans-serif;
+}
+.arriere_plan{
+    width: 100%;
+    min-height: 100%;
+    background-color: aqua;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 60px;
+    background-color: rgba(15, 15, 27, 0.87);
+}
+header .username,.date,.deconnect p{
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+section{
+    display: flex;
+    
+}
+.page-menu{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(15, 15, 27, 0.87);
+}
+.entete{
+    width: 100%;
+    height: 60px;
+    background: rgb(4, 236, 198);
+    font-size: 30px;
+    font-family: Algerian;
+    text-align: center;
+    padding-top: 15px;
+}
+.page-menu ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 22px;
+    color: aliceblue;
+    padding-left: 60px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgb(247, 249, 250);
+    text-decoration: none;
+    transition: .4s;
+    border-radius: 20px;
+    
+}
+ul li:hover a{
+    padding-left: 90px;
+    background-color: rgb(4, 236, 198);
+    color: black;
+    
+}
+.page-descrip{
+    width: 100%;
+    height: 500Px;
+    background-color: blueviolet;
+    background-image: url(../Image/flyers.jpg);
+}
+.titre-defilant{
+    padding-top: 10px;
+    padding-bottom:  60px;
+}
+.titre-defilant,marquee,h1{
+    color: blue;
+    font-family: initial;
+    font-size: 1.4em
+}
+.porte-iframe{
+    width: 100%;
+    height: 90px;
+    
+    margin-top: 1px;
+    border-radius: 20PX
+
+    
+}
+.porte-iframe1{
+    width: 100%;
+    height: 10px;
+    background-color: aqua;
+    
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+}
+button{
+    width: 90px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    color: aliceblue;
+    
+}
